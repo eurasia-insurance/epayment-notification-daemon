@@ -15,7 +15,6 @@
 	<name>Epayment Lib : Notification daemon</name>
 
 	<modules>
-		<module>template-client</module>
 		<module>beans</module>
 		<module>app</module>
 	</modules>
@@ -30,6 +29,7 @@
 		<lapsa-text.version>1.1</lapsa-text.version>
 		<lapsa-mail.version>2.1</lapsa-mail.version>
 		<epayment-shared.version>1.0</epayment-shared.version>
+		<epayment-notification-template-client.version>2.1-SNAPSHOT</epayment-notification-template-client.version>
 		<epayment-domain.version>4.1-SNAPSHOT</epayment-domain.version>
 	</properties>
 
@@ -86,12 +86,12 @@
 				<artifactId>lapsa-text</artifactId>
 				<version>${lapsa-text.version}</version>
 			</dependency>
-			<!-- own -->
 			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>epayment-notification-daemon-template-client</artifactId>
-				<version>${project.version}</version>
+				<groupId>tech.lapsa.epayment</groupId>
+				<artifactId>epayment-notification-template-client</artifactId>
+				<version>${epayment-notification-template-client.version}</version>
 			</dependency>
+			<!-- own -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>epayment-notification-daemon</artifactId>
