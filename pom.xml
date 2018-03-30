@@ -29,8 +29,8 @@
 		<lapsa-jms-rpc.version>1.0</lapsa-jms-rpc.version>
 		<lapsa-text.version>1.1</lapsa-text.version>
 		<lapsa-mail.version>2.1</lapsa-mail.version>
-		<epayment-shared.version>1.0</epayment-shared.version>
-		<epayment-domain.version>4.0.2a</epayment-domain.version>
+		<epayment-shared.version>1.0.2-SNAPSHOT</epayment-shared.version>
+		<epayment-domain.version>4.0.3-SNAPSHOT</epayment-domain.version>
 	</properties>
 
 	<dependencyManagement>
