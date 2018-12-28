@@ -108,9 +108,9 @@
 	</dependencyManagement>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/epayment/notification-daemon.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/epayment/notification-daemon.git</developerConnection>
-		<tag>v2.1</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/epayment-notification-daemon.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/epayment-notification-daemon.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
